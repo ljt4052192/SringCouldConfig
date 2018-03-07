@@ -1,6 +1,9 @@
 spring:
+  application:
+    name: springfeign
   mvc:
-    view: 
+    view:
+      
       prefix: /
       suffix: .jsp
   datasource:
@@ -15,3 +18,4 @@ eureka:
 feign:
   hystrix:
     enabled: true
+content: admin	
