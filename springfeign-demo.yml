@@ -1,3 +1,4 @@
+content: asdf
 spring:
   application:
     name: springfeign
@@ -18,4 +19,4 @@ eureka:
 feign:
   hystrix:
     enabled: true
-content: asdf
+
