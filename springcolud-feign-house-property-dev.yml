@@ -7,9 +7,9 @@ spring:
       suffix: .jsp
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.0.142:3306/house?useUnicode=true&characterEncoding=utf-8
-    username: user
-    password: root
+    url: jdbc:mysql://rm-2zebj150s7a6v277zqo.mysql.rds.aliyuncs.com:3306/1708btwo?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 1708bROOT
 eureka:
   client:
     service-url:
