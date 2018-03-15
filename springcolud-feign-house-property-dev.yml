@@ -1,0 +1,19 @@
+spring:
+  
+  mvc:
+    view:
+      
+      prefix: /
+      suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.142:3306/house?useUnicode=true&characterEncoding=utf-8
+    username: user
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+feign:
+  hystrix:
+    enabled: true
