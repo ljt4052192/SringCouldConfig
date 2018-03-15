@@ -1,10 +1,4 @@
 spring:
-  
-  mvc:
-    view:
-      
-      prefix: /
-      suffix: .jsp
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://rm-2zebj150s7a6v277zqo.mysql.rds.aliyuncs.com:3306/1708btwo?useUnicode=true&characterEncoding=utf-8
